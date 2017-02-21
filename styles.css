@@ -24,11 +24,15 @@ body {
 .nav-right {
   display: flex;
   flex-direction: column;
-  align-content: flex-end;
+  align-items: flex-end;
   width: 40%;
   background: #2B2B2B;
   color: white;
   height: 130px;
+}
+
+.admin-right {
+  margin-right:40px;
 }
 
 .admin {
@@ -41,6 +45,7 @@ body {
   width: 50px;
   height: 40px;
   margin-top: 35px;
+  margin-right:20px;
 }
 
 .icon {
@@ -115,8 +120,8 @@ font-size: 15px;
 
 .url  {
   padding-left: 8px;
+  word-wrap: break-word;
 }
-
 
 .name-playlist, .attachments {
   font-size: 12px;
@@ -134,54 +139,105 @@ font-size: 15px;
   margin-top: 0;
 }
 
+.hover {
+  background-color: #4f4e4e;
+  background-blend-mode: overlay;
+}
+
 .img1 {
   background: url(assets/img1.jpg) no-repeat;
   background-size: cover;
   height: 110px;
-  filter: grayscale(20%);
+  background-color: #4f4e4e;
+  background-blend-mode: overlay;
+}
+
+.img1:hover {
+  background-color: transparent;
 }
 
 .img2 {
   background: url(assets/img2.jpg) no-repeat;
   background-size: cover;
   height: 110px;
+  background-color: #4f4e4e;
+  background-blend-mode: overlay;
+}
 
+.img2:hover {
+  background-color: transparent;
 }
 
 .img3 {
   background: url(assets/img3.jpg) no-repeat;
   background-size: cover;
   height: 110px;
+  background-color: #4f4e4e;
+  background-blend-mode: overlay;
+}
+
+.img3:hover {
+  background-color: transparent;
 }
 
 .img4 {
   background: url(assets/img4.jpg) no-repeat;
   background-size: cover;
   height: 110px;
+  background-color: #4f4e4e;
+  background-blend-mode: overlay;
+}
+
+.img4:hover {
+  background-color: transparent;
 }
 
 .img5 {
   background: url(assets/img5.jpg) no-repeat;
   background-size: cover;
   height: 110px;
+  background-color: #4f4e4e;
+  background-blend-mode: overlay;
+}
+
+.img5:hover {
+  background-color: transparent;
 }
 
 .img6 {
   background: url(assets/img6.jpg) no-repeat;
   background-size: cover;
   height: 110px;
+  background-color: #4f4e4e;
+  background-blend-mode: overlay;
+}
+
+.img6:hover {
+  background-color: transparent;
 }
 
 .img7 {
   background: url(assets/img7.jpg) no-repeat;
   background-size: cover;
   height: 110px;
+  background-color: #4f4e4e;
+  background-blend-mode: overlay;
+}
+
+.img7:hover {
+  background-color: transparent;
 }
 
 .img8 {
   background: url(assets/img8.jpg) no-repeat;
   background-size: cover;
   height: 110px;
+  background-color: #4f4e4e;
+  background-blend-mode: overlay;
+}
+
+.img8:hover {
+  background-color: transparent;
 }
 
 .img9 {
