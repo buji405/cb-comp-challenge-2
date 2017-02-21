@@ -282,11 +282,40 @@ font-size: 15px;
   }
 }
 
+@media(max-width: 530px) {
+  .win {
+    display: none;
+  }
+
+  .icon {
+    padding-right: 10px;
+  }
+
+  .logo {
+    margin-top: 30px;
+    padding-bottom: 40px;
+  }
+
+  .admin-right {
+    margin-right: 5px;
+  }
+}
+
 @media(max-width: 490px) {
   .card {
     display: flex;
     flex-direction: column;
     width: 75%;
     height:410px;
+  }
+}
+
+@media(max-width: 360px) {
+  .username {
+    display: none;
+  }
+
+  .admin {
+    margin-right: 25px;
   }
 }
